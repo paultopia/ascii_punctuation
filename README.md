@@ -1,5 +1,11 @@
 # ASCII Punctuation Maker
 
+**Quickstart**
+
+Install in Sublime Text.  Hit `alt-a`.  "Smart quotes" and other insidious unicode punctuation that might have slipped into your document from copy-pasting from MS Word, web, etc. magically disappear.  Be happy.
+
+Details follow.
+
 **YOUR PROBLEM**: 
 
 You're working in Sublime Text with some kind of text that you copied and pasted in from the web, or from a Word document.  You don't *think* it has any international characters in it, so you aren't bothing with specifying any kind of encoding.  Maybe you're making a quick and dirty HTML page.  Maybe you're processing text in Python 2.  Either way, ugliness ensues: Python throws a bunch of horrible unicode errors, your web page has a bunch of weird question marks in black diamonds.  
