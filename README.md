@@ -16,7 +16,15 @@ You're working in Sublime Text with some kind of text that you copied and pasted
 2.  Learn how unicode works.  A year later, go back and try your web page/text processing task again.  (Oh, wait, you've been fired for unproductivity.  Never mind.)
 3.  Install this plugin.  Be happy.
 
-**In other words**: This is a very simple plugin to take horrible unicode punctuation in a Sublime Text buffer and convert it to nice sane ASCII punctuation.  It fixes "smart quotes" (single and double, as well as the apostrophe that is also a single quote) as well as weird dashes and ellipses. 
+**In other words**: This is a very simple plugin to take horrible unicode punctuation in a Sublime Text buffer and convert it to nice sane ASCII punctuation.  It fixes: 
+
+- "smart quotes" (single and double, as well as the apostrophe that is also a single quote) 
+
+- weird dashes (just turns into ordinary ascii single-dashes) 
+
+- ellipses
+
+- bullet points 
 
 **Installation and usage**: Install via ordinary Sublime Text package methods (save in your packages directory).  Then `alt-a` will replace all the evil punctuation in the current buffer with non-evil punctuation.  There's also an entry in the command palette and in the edit menu.  
 
