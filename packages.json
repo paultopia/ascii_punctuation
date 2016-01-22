@@ -1,0 +1,15 @@
+{
+    "schema_version": "1.0.0",
+    "packages": [
+        {
+            "name": "ASCII Punctuation",
+            "details": "https://github.com/paultopia/ascii_punctuation",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "tags":true
+                }
+            ]
+        }
+    ]
+}
