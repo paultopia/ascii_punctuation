@@ -1,4 +1,4 @@
-# ASCII Punctuation Maker
+# ASCII Punctuation
 
 **Quickstart**
 
