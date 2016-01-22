@@ -28,7 +28,9 @@ You're working in Sublime Text with some kind of text that you copied and pasted
 
 **Installation and usage**: Install via ordinary Sublime Text package methods (save in your packages directory).  Then `alt-a` will replace all the evil punctuation in the current buffer with non-evil punctuation.  There's also an entry in the command palette and in the edit menu.  
 
-This isn't in package control, but there's one with similar fuctionality in there called [Magicless Quotes](https://github.com/daryltucker/MagiclessQuotes). Mine is better though.  :-)   (But actually.  Mine uses fast string replacement rather than [slow regex](http://stackoverflow.com/questions/5668947/use-pythons-string-replace-vs-re-sub), and replaces on command rather than automatically on save.)
+This isn't in package control, but there's one with similar fuctionality in there called [Magicless Quotes](https://github.com/daryltucker/MagiclessQuotes). Mine is better though.  :-)   
+
+<sub>(But actually.  Mine uses fast string replacement rather than [slow regex](http://stackoverflow.com/questions/5668947/use-pythons-string-replace-vs-re-sub), and replaces on command rather than automatically on save.</sub>)
 
 If you'd rather do this in the filesystem instead, see [cleanpunct](https://github.com/paultopia/cleanpunct), which is basically the same thing, but as a Python module instead of a ST package.
 
